@@ -1,0 +1,38 @@
+{
+  "name": "webbox",
+  "version": "1.0.0",
+  "description": "A web sandbox for proof of concept work",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "lint": "standard",
+    "test": "npm run lint",
+    "server": "node server.js",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgautsch/webbox.git"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Dan Gautsch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgautsch/webbox/issues"
+  },
+  "homepage": "https://github.com/dgautsch/webbox#readme",
+  "dependencies": {
+    "lodash-es": "4.17.14",
+    "webpack": "4.36.1",
+    "webpack-cli": "3.3.6"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "standard": "13.0.2",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
