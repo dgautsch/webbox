@@ -28,7 +28,7 @@
   "dependencies": {
     "lodash-es": "4.17.14",
     "webpack": "4.36.1",
-    "webpack-cli": "3.3.6"
+    "webpack-cli": "3.3.12"
   },
   "devDependencies": {
     "express": "^4.17.1",
