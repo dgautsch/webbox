@@ -31,7 +31,7 @@
     "webpack-cli": "3.3.6"
   },
   "devDependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "standard": "13.0.2",
     "webpack-dev-server": "^3.7.2"
   }
